@@ -1,0 +1,9 @@
+Metric,Value
+Selected Threshold,0.008612054400146008
+OOF Precision,0.1532567049808429
+OOF Recall,0.4819277108433735
+OOF F2,0.3372681281618887
+OOF False Negatives,43.0
+OOF True Positives,40.0
+OOF False Positives,221.0
+OOF True Negatives,949.0
