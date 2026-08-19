@@ -1,0 +1,12 @@
+Metric,Value
+Number of samples,1567.0
+Number of sensor features,590.0
+Total columns,592.0
+Pass samples,1463.0
+Fail samples,104.0
+Yield rate (%),93.36
+Fail rate (%),6.64
+Features with missing values,538.0
+All-missing features,0.0
+Single-value features,116.0
+Duplicated rows,0.0
