@@ -1,0 +1,9 @@
+Model,Stage,Threshold,Accuracy,Precision,Recall,F1,F2,AP,ROC-AUC,TN,FP,FN,TP,Total
+Dummy Classifier,04 Baseline,,0.9331,0.0,0.0,0.0,0.0,0.0669,0.5,293,0,21,0,314
+Logistic Regression,04 Baseline,0.5,0.8758,0.125,0.1429,0.1333,0.1389,0.119,0.6205,272,21,18,3,314
+Logistic + SMOTE (1:1),05 SMOTE,0.5,0.828,0.0769,0.1429,0.1,0.122,0.1187,0.6166,257,36,18,3,314
+Logistic + MI (All 442),06 Feature Selection,0.5,0.8758,0.125,0.1429,0.1333,0.1389,0.119,0.6205,272,21,18,3,314
+Base XGBoost,07 XGBoost,0.5,0.9299,0.0,0.0,0.0,0.0,0.1881,0.7444,292,1,21,0,314
+Weighted XGBoost,07 XGBoost,0.5,0.9299,0.0,0.0,0.0,0.0,0.1562,0.7065,292,1,21,0,314
+Base XGBoost + Optimized Threshold,08 Threshold Optimization,0.008612,0.8217,0.1818,0.4762,0.2632,0.3597,0.1881,0.7444,248,45,11,10,314
+Tuned XGBoost + Optimized Threshold,09 Hyperparameter Tuning,0.0742,0.6401,0.1102,0.619,0.1871,0.3218,0.1891,0.6815,188,105,8,13,314
